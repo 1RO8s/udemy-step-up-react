@@ -5,7 +5,7 @@ export const StyledJsx = () => {
         <p className="title">- Styled JSX -</p>
         <button className="button">FIGHT!!</button>
       </div>
-      <style jsx={true}>{`
+      <style jsx="true">{`
         .container {
           border: solid 2px #392eff;
           border-radius: 20px;
