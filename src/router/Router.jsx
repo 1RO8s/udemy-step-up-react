@@ -13,7 +13,7 @@ export const Router = () => {
         render={({ match: { url } }) => (
           <Switch>
             {Page1Routes.map(({ path, exact, children }) => {
-              console.log("# ", path, exact, children);
+              //console.log("# ", path, exact, children);
               return (
                 <Route key={path} exact={exact} path={`${url}${path}`}>
                   {children}
