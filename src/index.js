@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import ReactDom from "react-dom";
-import App from "./App2";
+import App from "./App3";
 
 ReactDom.render(
   <StrictMode>
