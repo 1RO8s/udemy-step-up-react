@@ -3,6 +3,7 @@ import { Router } from "./router/Router";
 
 import "./styles.css";
 
+/** ルーティングの基礎 */
 export default function App() {
   return (
     <BrowserRouter>

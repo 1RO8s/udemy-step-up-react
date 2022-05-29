@@ -1,7 +1,8 @@
 import { useState, useCallback } from "react";
-import { ChildArea } from "./ChildArea";
+import { ChildArea } from "./components/ChildArea";
 import "./styles.css";
 
+/** レンダリングの仕組みと最適化 */
 export default function App() {
   const [text, setText] = useState("hogehoge");
   const [isOpen, setIsOpen] = useState(false);
