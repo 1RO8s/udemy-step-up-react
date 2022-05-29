@@ -2,3 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+/* App4用*/
+body {
+  background-color: #e4f9f5;
+  margin: 0;
+  min-height: 100vh;
+}
