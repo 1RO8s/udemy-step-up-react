@@ -8,7 +8,6 @@ export const UserCard = (props) => {
   return (
     <Card>
       <UserIconWithName image={user.image} name={user.name} />
-      <p>{user.name}</p>
       <DL>
         <dt>メール</dt>
         <dd>{user.email}</dd>
